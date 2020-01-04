@@ -12,6 +12,7 @@ export const HeaderContainer = styled.div`
     padding: 10px;
     margin-bottom: 20px;
     margin-right:0px
+    
   }
 `;
 
@@ -32,7 +33,8 @@ export const OptionsContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   @media screen and (max-width: 800px) {
-    width: 80%;
+    width: 85%;
+    font-size:small;
   }
 `;
 
