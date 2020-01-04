@@ -17,7 +17,7 @@ export const CollectionItemContainer = styled.div`
       display: flex;
     }
   }
-  @media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px ) {
     width: 40vw;
     &:hover {
       .image {
@@ -61,6 +61,9 @@ export const CollectionFooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  @media screen and (max-width: 800px ){
+    font-size:x-small;
+  }
 `;
 
 export const NameContainer = styled.span`
