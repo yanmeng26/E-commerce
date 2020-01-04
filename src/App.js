@@ -2,7 +2,7 @@ import React from 'react';
 import HomePage from './pages/homepage/homepage.component';
 import {BrowserRouter,Switch,Route, Redirect} from 'react-router-dom';
 import ShopPage from'./pages/shop/shop.jsx';
-import './App.css';
+import { GlobalStyle } from './global.styles';
 import Header from './components/header/header.jsx';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.jsx';
 import {auth,createUserProfileDocument} from './firebase/firebase.utils';
@@ -47,6 +47,7 @@ class App extends React.Component {
   return (
     <div className="App">
       <BrowserRouter>
+      <GlobalStyle/>
       <Header/>
       <Switch>
         <Route exact path ='/' component = {HomePage}/>
