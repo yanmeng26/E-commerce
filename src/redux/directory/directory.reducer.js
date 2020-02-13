@@ -1,33 +1,33 @@
 const INITIAL_STATE = {
     sections: [
       {
-        title: 'hats',
-        imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+        title: 'vegan',
+        imageUrl: 'https://i.ibb.co/H20K6rZ/monstruo-estudio-l-Qy6m-HZ7f-Yk-unsplash.jpg',
         id: 1,
-        linkUrl: 'shop/hats'
+        linkUrl: 'shop/vegan'
       },
       {
-        title: 'jackets',
-        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+        title: 'fruits',
+        imageUrl: 'https://i.ibb.co/TRy5P9X/jannis-brandt-8manzos-DSGM-unsplash.jpg',
         id: 2,
-        linkUrl: 'shop/jackets'
+        linkUrl: 'shop/fruits'
       },
       {
-        title: 'sneakers',
-        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+        title: 'cereals',
+        imageUrl: 'https://i.ibb.co/x6G48CG/nyana-stoica-EV6-C1-Lj-H1-Lk-unsplash.jpg',
         id: 3,
-        linkUrl: 'shop/sneakers'
+        linkUrl: 'shop/cereals'
       },
       {
         title: 'womens',
-        imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+        imageUrl: 'https://i.ibb.co/k5zGD6C/christopher-campbell-k-FCdf-Lbu6z-A-unsplash.jpg',
         size: 'large',
         id: 4,
         linkUrl: 'shop/womens'
       },
       {
         title: 'mens',
-        imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+        imageUrl: 'https://i.ibb.co/YXZFvFF/cihan-soysakal-Nu-Mp-JX6-Be-KY-unsplash.jpg',
         size: 'large',
         id: 5,
         linkUrl: 'shop/mens'
